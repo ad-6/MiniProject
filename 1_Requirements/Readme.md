@@ -5,7 +5,7 @@
 
 ## Research
 ### Bank Administration System Software
-Several small and new banking and chit-fund services lack software infrastuture to keep a track of customer accounts. This is because such software are quite costly and cannot be afforded by these new/develoing services. This software will help them to overcome this issue and help them accurately store and edit all the data whenever required.  
+Several small and new banking and chit-fund services lack software infrastruture to keep a track of customer accounts. This is because such software are quite costly and cannot be afforded by these new/developing services. This software will help them to overcome this issue and help them accurately store and edit all the data whenever required.  
 
 ### Benefits
 This software makes it easier for bank adminstrator as well as the customer to instantly create an account as long as all the valid information is available. They can even edit the existing account incase of any change or discrapancy of information. Moreover individual accounts transactions can be tracked. The software makes it easy to view all acounts at once too.
@@ -20,8 +20,9 @@ This software makes it easier for bank adminstrator as well as the customer to i
 ### Explanation:
 * Bank Administration system software includes features like:
     * Creating a new account
-    * Update existing account 
+    * Update an existing account 
     * Read transactions details of an account
+    * Delete an existing account
     * View all records
     * Save record to file
     * Read record from file 
