@@ -1,19 +1,47 @@
 # Name of the project
-PROJECT_NAME = bank
+PROJECT_NAME = account_administration
 
 # Output directory
 BUILD = build
 
 # All source code files
 SRC = bank_acc.c\
-src/bank_check_acc.c
-src/bank_editing.c
-src/bank_exit.c
-src/bank_interest.c
-src/bank_list.c
-src/bank_menu.c
+src/bank_check_acc.c\
+src/bank_editing.c\
+src/bank_exit.c\
+src/bank_interest.c\
+src/bank_list.c\
+src/bank_menu.c\
 src/bank_remove.c
 
+INC_H = inc
+
+#To check if the OS is Windows or Linux and set the executable file extension and delete command accordingly
+ifdef OS
+   RM = del /q
+   FixPath = $(subst /,\,$1)
+   EXEC = exe
+else
+   ifeq ($(shell uname), Linux)
+      RM = rm -rf
+      FixPath = $1
+	  EXEC = out
+   endif
+endif
+
+$(PROJECT_NAME).exe : $(SRC) main.c
+	gcc -I $(INC_H) $(SRC) main.c -o $(PROJECT_NAME).exe
+
+run :
+	$(PROJECT_NAME).exe
+
+DOCUMENTATION_OUTPUT = documentation/html
+
+# Document the code using Doxygen
+doc:
+	make -C ./documentation
+	
+	
 # All test source files
 TEST_SRC = src/calculator_operations.c\
 test/test_calculator_operations.c\
@@ -28,7 +56,7 @@ INC	= -Iinc\
 #Library Inlcudes
 #if working with CUnit 
 #INCLUDE_LIBS = -lcunit
-INCLUDE_LIBS =
+#INCLUDE_LIBS =
 
 # Project Output name
 PROJECT_OUTPUT = $(BUILD)/$(PROJECT_NAME).out
