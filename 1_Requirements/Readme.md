@@ -21,7 +21,7 @@ This software makes it easier for bank adminstrator as well as the customer to i
 * Bank Administration system software includes features like:
     * Creating a new account
     * Update an existing account 
-    * Read transactions details of an account
+    * Read details of an account
     * Delete an existing account
     * View all records
     * Save record to file
