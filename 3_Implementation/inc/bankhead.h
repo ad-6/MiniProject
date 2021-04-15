@@ -4,10 +4,22 @@
 int i,j;
 int main_exit;
 void menu();
+
+/**
+ * @brief the structure date holds all the date that would be required like date of creation of account and date of birth of account holder
+ * 
+ */
+
 struct date{
     int mnth,day,y;
 
     };
+
+/**
+ * @brief this structure holds all the vital components which are neccesary for the account creation/viewing/editing etc
+ * 
+ */
+
 struct {
 
     char name[60];
@@ -21,7 +33,10 @@ struct {
     
     }add,upd,chk,del;
 
-
+/**
+ * @brief here all the functions that are being used in this program
+ * 
+ */
 
     void menu(void);
     float interest(float t,float a,int r);
