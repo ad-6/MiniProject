@@ -1,14 +1,11 @@
 # Name of the project
-PROJECT_NAME = all
+PROJECT_NAME = bank_ad
 
 # All source code files
 SRC = bank_acc.c\
 src/bank_check_acc.c\
-src/bank_editing.c\
-src/bank_exit.c\
-src/bank_interest.c\
-src/bank_list.c\
-src/bank_remove.c
+src/bank_menu.c\
+src/bank_wf.c
 
 
 
