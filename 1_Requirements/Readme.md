@@ -64,4 +64,5 @@ This software makes it easier for bank adminstrator as well as the customer to i
 | L3 | If user searches for an invalid ID "No Record Found" message should be displayed | H2|  IMPLEMENTED  |
 | L4 | User shall be able to save the files, if file already exists then it should append to file and should not overwrite it and if file does not exists then it should create a new file | H3,H4 |  IMPLEMENTED  |
 | L5 | To EXIT the system, required option in main menu needs to be selected | H5|  IMPLEMENTED  |
-| L6 | Transaction history should be available to the user when they view the account| H7|  FUTURE  |
+| L6 | Transaction history should be available to the user when they view the account| H6|  FUTURE  |
+| L7 | User should be able to delete records| H7|  FUTURE  |
