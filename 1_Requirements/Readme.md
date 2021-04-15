@@ -16,7 +16,7 @@ This software makes it easier for bank adminstrator as well as the customer to i
     * No joint account or linking of accounts
     * Entered details are correct
     * Deleted record need not be recovered
-![Description](https:)
+![Description](https://github.com/ad-6/MiniProject/blob/main/1_Requirements/system.png)
 ### Explanation:
 * Bank Administration system software includes features like:
     * Creating a new account
