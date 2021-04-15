@@ -11,7 +11,6 @@ src/bank_editing.c\
 src/bank_exit.c\
 src/bank_interest.c\
 src/bank_list.c\
-src/bank_menu.c\
 src/bank_remove.c
 
 INC_H = inc
