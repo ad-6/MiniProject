@@ -1,12 +1,18 @@
 # Name of the project
-PROJECT_NAME = Calculator
+PROJECT_NAME = bank
 
 # Output directory
 BUILD = build
 
 # All source code files
-SRC = project_main.c\
-src/calculator_operations.c
+SRC = bank_acc.c\
+src/bank_check_acc.c
+src/bank_editing.c
+src/bank_exit.c
+src/bank_interest.c
+src/bank_list.c
+src/bank_menu.c
+src/bank_remove.c
 
 # All test source files
 TEST_SRC = src/calculator_operations.c\
