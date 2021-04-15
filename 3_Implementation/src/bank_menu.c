@@ -9,29 +9,29 @@
  * 
  */
 
-void menu(void)
-{   int c;
+void menu(acc_info *account, int *numberOfAccounts, char *filename)
+{
+    int choice=0;
     system("cls");
     printf("\n\n\t\t\tCUSTOMER ACCOUNT BANKING ADMINISTRATION SYSTEM");
     printf("\n\n\n\t\t\tWELCOME TO THE MAIN MENU");
-    printf("\n\n\t\t1.Create a new account\n\t\t2.Update information of existing account\n\t\t3.Check the details of existing account\n\t\t4.Removing existing account\n\t\t5.View all accounts \n\t\t6.Exit\n\n\n\n\n\t\t Enter your c:");
-    scanf("%d",&c);
-
-    system("cls");
-    switch(c)
+    while(1)
     {
-        case 1:new_acc();
-        break;
-        case 2:edit();
-        break;
-        case 3:view_acc();
-        break;
-        case 4:delete_acc();
-        break;
-        case 5:view_all();
-        break;
-        case 6:exit_menu();
-        break;
-
-    }
+        printf("\n\n\t\t1.Create a new account\n\t\t2.Check the details of existing account\n\t\t3.Exit\n\n\n\n\n\t\t Enter your choice:");
+        scanf("%d",&choice);
+        if(choice == 1)
+        {
+            new_acc(account,numberOfAccounts);
+        }
+        if(choice == 2)
+        {
+            view_acc(account,numberOfAccounts);
+        }
+        if(choice == 3)
+        {
+            write_file(account,numberOfAccounts,filename);
+            printf("\n Thank you. You have exited successfully.");
+            break;
+        }
+     }
 }
