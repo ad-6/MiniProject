@@ -2,7 +2,7 @@
 
 ## High Level Design 
 
-![HighLevelStructuralDiagram](https://github.com/ad-6/MiniProject/blob/main/2_Design/hl_1.png)
+![HighLevelStructuralDiagram]()
 ![HighLevelBehaviouralDiagram](https://github.com/ad-6/MiniProject/blob/main/2_Design/hl_2.png)
 
 ## Low Level Design 
