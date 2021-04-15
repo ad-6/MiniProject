@@ -15,7 +15,7 @@ This software makes it easier for bank adminstrator as well as the customer to i
 * Few assumptions the system makes are: 
     * No joint account or linking of accounts
     * Entered details are correct
-![Description](https://github.com/ad-6/MiniProject/blob/main/1_Requirements/system.png)
+![Description]()
 ### Explanation:
 * Bank Administration system software includes features like:
     * Creating a new account
@@ -24,7 +24,7 @@ This software makes it easier for bank adminstrator as well as the customer to i
     * Read record from file 
 
 ## SWOT ANALYSIS
-![SWOT Analysis](https://github.com/ad-6/MiniProject/blob/main/1_Requirements/SWOT_Analysis.png)
+![SWOT Analysis]()
 
 # 4W&#39;s and 1&#39;H
 
