@@ -15,7 +15,7 @@ This software makes it easier for bank adminstrator as well as the customer to i
 * Few assumptions the system makes are: 
     * No joint account or linking of accounts
     * Entered details are correct
-![Description]()
+![Description](https://github.com/ad-6/MiniProject/blob/main/1_Requirements/Sys.png)
 ### Explanation:
 * Bank Administration system software includes features like:
     * Creating a new account
