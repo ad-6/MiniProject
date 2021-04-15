@@ -53,13 +53,14 @@ This software makes it easier for bank adminstrator as well as the customer to i
 | ----- | ----- | ------- | ---------|
 | HR01 | User shall be able to create an new account| Technical | IMPLEMENTED | 
 | HR02 | User shall be able to update an existing account | Technial |  IMPLEMENTED  |
-| HR03 | User shall be able to read an account for transaction details| Technical |  IMPLEMENTED  |
+| HR03 | User shall be able to read an account for interest details| Technical |  IMPLEMENTED  |
 | HR04 | User shall be able to view all accounts | Technical |  IMPLEMENTED  |
 | HR05 | User shall be able to delete an account | Technical |  IMPLEMENTED  |
 | HR06 | User shall be able to save records in a file | Technical |  IMPLEMENTED  |
 | HR07 | User shall be able to read data from a file | Technical |  IMPLEMENTED  |
 | HR08 | User can EXIT the menu |Technical| IMPLEMENTED  |
-| HR09 | User can link accounts| Scenario| FUTURE |
+| HR09 | User shall be to get instant inforamtion of all transactions made| Technical| FUTURE |
+| HR10 | User can link accounts| Scenario| FUTURE |
 ##  Low level Requirements:
  
 | ID | Description | HLR ID | Status (Implemented/Future) |
@@ -73,3 +74,4 @@ This software makes it easier for bank adminstrator as well as the customer to i
 | LR05 | User shall be able to save the files, if file already exists then it should append to file and should not overwrite it and if file does not exists then it should create a new file | HR06 |  IMPLEMENTED  |
 | LR06 | If opening the file fails, then the system shoulfd prompt the message "Unable to access file" and should not end the program execution | HR05, HR06, HR07, HR09|  IMPLEMENTED  |
 | LR07 | To EXIT the system, required option in main menu needs to be selected | HR08|  IMPLEMENTED  |
+| LR08 | Transaction history should be available to the user when they view the account| HR09|  FUTURE  |
