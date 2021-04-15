@@ -1,5 +1,5 @@
 # Name of the project
-PROJECT_NAME = account_administration
+PROJECT_NAME = all
 
 # Output directory
 BUILD = build
@@ -13,11 +13,16 @@ src/bank_interest.c\
 src/bank_list.c\
 src/bank_remove.c
 
-INC_H = inc
+INC = inc
 
-#To check if the OS is Windows or Linux and set the executable file extension and delete command accordingly
+$(PROJECT_NAME): $(SRC)
+	gcc -I $(INC) $(SRC) -o all
+	
+run: $(PROJECT_NAME)
+	$(PROJECT_NAME)
+	
 ifdef OS
-   RM = del /q
+   RM = rm 
    FixPath = $(subst /,\,$1)
    EXEC = exe
 else
@@ -28,11 +33,6 @@ else
    endif
 endif
 
-$(PROJECT_NAME).exe : $(SRC) main.c
-	gcc -I $(INC_H) $(SRC) main.c -o $(PROJECT_NAME).exe
-
-run :
-	$(PROJECT_NAME).exe
 
 DOCUMENTATION_OUTPUT = documentation/html
 
