@@ -8,7 +8,7 @@
 Several small and new banking and chit-fund services lack software infrastruture to keep a track of customer accounts. This is because such software are quite costly and cannot be afforded by these new/developing services. This software will help them to overcome this issue and help them accurately store and edit all the data whenever required.  
 
 ### Benefits
-This software makes it easier for bank adminstrator as well as the customer to instantly create an account as long as all the valid information is available. They can even edit the existing account incase of any change or discrapancy of information. Moreover individual accounts transactions can be tracked. The software makes it easy to view all acounts at once too.
+This software makes it easier for bank adminstrator as well as the customer to instantly create an account as long as all the valid information is available. They can even edit the existing account incase of any change or discrapancy of information. Moreover individual accounts information and interests earned can be tracked. The software makes it easy to view all acounts at once too.
 
 ## System Defination
 ### Assumptions:
@@ -42,10 +42,10 @@ This software makes it easier for bank adminstrator as well as the customer to i
 * Tremendously growing competition among various banking/chit-funds services.
 
 ## Where:
-* This problem faced by all small and new banks/chit-funds. 
+* Probalme faced by all small and new banks/chit-funds. 
 
 ## How:
-* Causes huge losses and ultimately shut down of these small banks/chit-funds services. 
+* Causes huge losses and ultimately leads to the shut down of these small banks/chit-funds services. 
 
 # Detail requirements
 ## High Level Requirements: 
@@ -60,7 +60,7 @@ This software makes it easier for bank adminstrator as well as the customer to i
 | HR07 | User shall be able to read data from a file | Technical |  IMPLEMENTED  |
 | HR08 | User can EXIT the menu |Technical| IMPLEMENTED  |
 | HR09 | User shall be to get instant inforamtion of all transactions made| Technical| FUTURE |
-| HR10 | User can link accounts| Scenario| FUTURE |
+| HR10 | User can link accounts| Technical| FUTURE |
 ##  Low level Requirements:
  
 | ID | Description | HLR ID | Status (Implemented/Future) |
