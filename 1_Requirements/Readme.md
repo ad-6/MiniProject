@@ -24,7 +24,7 @@ This software makes it easier for bank adminstrator as well as the customer to i
     * Read record from file 
 
 ## SWOT ANALYSIS
-![SWOT Analysis]()
+![SWOT Analysis](https://github.com/ad-6/MiniProject/blob/main/1_Requirements/SWOT.png)
 
 # 4W&#39;s and 1&#39;H
 
