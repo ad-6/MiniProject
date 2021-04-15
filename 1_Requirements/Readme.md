@@ -59,7 +59,7 @@ This software makes it easier for bank adminstrator as well as the customer to i
 | H6 | User shall be able to save records in a file | Technical |  IMPLEMENTED  |
 | H7 | User shall be able to read data from a file | Technical |  IMPLEMENTED  |
 | H8 | User can EXIT the menu |Technical| IMPLEMENTED  |
-| H9 | User shall be to get instant inforamtion of all transactions made| Technical| FUTURE |
+| H9 | User shall be to get instant information of all transactions made| Technical| FUTURE |
 | H10 | User can link accounts| Technical| FUTURE |
 ##  Low level Requirements:
  
