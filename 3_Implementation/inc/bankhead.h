@@ -38,7 +38,7 @@ typedef enum error_t
 void menu(acc_info *acc, int *num_acc, char *filename);
 error_t new_acc(acc_info *acc, int* num_acc);
 error_t view_acc(acc_info *acc, int *num_acc);
-error_t write_func(acc_info *acc, int *num_acc, char *filename);
+error_t write_into_func(acc_info *acc, int *num_acc, char *filename);
 
 
 #endif  
