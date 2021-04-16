@@ -64,3 +64,6 @@ clean:
 	$(RM) *.gcda
 	$(RM) *.gcno
 	$(RM) *.c.gcov
+	
+$(BUILD):
+	mkdir build
