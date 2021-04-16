@@ -1,6 +1,6 @@
 # Requirements
 ## Introduction
- * The Bank Administration system helps in the instant creation and viewing of an account without any hassle. 
+ * The Bank Administration system helps in the instant creation and viewing of an account without any hassle.
  * This topic was chosen to implement various C programming methods including structures,pointers,header files and multiple file programming concepts.
 
 ## Research
