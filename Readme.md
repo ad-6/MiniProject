@@ -1,4 +1,5 @@
 # SDLC Activity Based Learning
+![Banner](https://github.com/ad-6/MiniProject/blob/main/bank_banner.png)
 
 ## Folder Structure
 Folder             | Description
