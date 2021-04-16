@@ -3,7 +3,7 @@
 #include<string.h>
 #include "bankhead.h"
 
-error_t write_file(acc_info *acc, int *num_acc, char *filename)
+error_t write_into_file(acc_info *acc, int *num_acc, char *filename)
 {
     int i;
 	FILE *fptr;
