@@ -8,5 +8,9 @@ Folder             | Description
 `3_Implementation` | All code and documentation
 `4_Test_plan`      | Documents with test plans and procedures
 
+## Contributors List
 
+SF Id. |  Name   |  
+-------|---------|
+256305 | Akriti Dikshit  |      
 
