@@ -5,7 +5,7 @@
 
 /**
  * @brief this is the main menu where the user can choose what they wish to do between:
- * creation, viewing, deleting or updating an account
+ * creation, viewing an account
  * 
  */
 
