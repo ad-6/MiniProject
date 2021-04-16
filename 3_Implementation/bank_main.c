@@ -12,24 +12,18 @@
  */
 int main()
 {
-    acc_info account[1000];
-    int numberOfAccounts = 0;
+    acc_info acc[1000];
+    int num_acc = 0;
     char filename[30];
     FILE *fptr;
-    printf("Enter the name of the file: ");
+    printf("\n Enter the name of the file: ");
     gets(filename);
     fptr = fopen(filename, "r");
     if (fptr == NULL)
-    {
-        printf("New file has been created.\n");
-    }
+        printf("\n New file has been created.");
     if (fptr != NULL)
-    {
-        while (fread(&account[numberOfAccounts], sizeof(account[numberOfAccounts]), 1, fptr) == 1)
-        {
-            numberOfAccounts++;
-        }
-    }
-   menu(account, &numberOfAccounts, filename);
+        while (fread(&acc[num_acc], sizeof(acc[num_acc]), 1, fptr) == 1)
+            num_acc++;
+   menu(acc, &num_acc, filename);
     return 0;
 }
