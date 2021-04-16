@@ -5,7 +5,7 @@ int i,j;
 int main_exit;
 
 /**
- * @brief this structure holds all the vital components which are neccesary for the account creation/viewing/editing etc
+ * @brief this structure holds all the vital components which are neccesary for the account creation/viewing  etc
  * 
  */
 
