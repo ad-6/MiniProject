@@ -12,9 +12,8 @@ int main_exit;
 typedef struct acc_info
 {
     char name[60];
-    int acc_no,age;
+    int acc_no,age,phone;
     char address[60];
-    int phone;
     char acc_type[10];
     float amt;
 }acc_info;
@@ -38,8 +37,8 @@ typedef enum error_t
 
 void menu(acc_info *acc, int *num_acc, char *filename);
 error_t new_acc(acc_info *acc, int* num_acc);
-error_t view_acc(acc_info *acc, int *numb_acc);
-error_t write_func(acc_info *acc, int *numb_acc, char *filename);
+error_t view_acc(acc_info *acc, int *num_acc);
+error_t write_func(acc_info *acc, int *num_acc, char *filename);
 
 
 #endif  
