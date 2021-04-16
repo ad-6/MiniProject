@@ -5,7 +5,7 @@
 
 /**
  * @brief this function enables the user to view the account information from the account number or name
- * displays the account number, name, amount in the account and account type
+ * displays the account number, name, amount in the account and other details 
  * 
  */
 
@@ -24,7 +24,7 @@ error_t view_acc(acc_info *acc, int *num_acc)
             if (acc[i].acc_no == acc_choice)
             {
                 printf("\n The details are as follows");
-                printf("\n\tAccount No.:%d\n\tName:%s\n\tAmount:%f\n\tAccount Type:%s", acc[i].acc_no, acc[i].name, acc[i].amt, acc[i].acc_type);
+                printf("\n\tAccount Number:%d\n\tName:%s\n\tAge:%d\n\tPhone:%s\n\tAddress:%s\n\tAmount:%f\n\tAccount Type:%s",acc[i].acc_no,acc[i].name,acc[i].age,acc[i].phone,acc[i].address,acc[i].amt,acc[i].acc_type);
                 flag = 1;
                 return SUCCESS;
             }
@@ -42,7 +42,7 @@ error_t view_acc(acc_info *acc, int *num_acc)
             if (strcmp(acc[i].name, name) == 0)
             {
                 printf("\n The details are as follows");
-                printf("\n\tAccount No.:%d\n\tName:%s\n\tAmount:%f\n\tAccount Type:%s", acc[i].acc_no, acc[i].name, acc[i].amt, acc[i].acc_type);
+                printf("\n\tAccount Number:%d\n\tName:%s\n\tAge:%d\n\tPhone:%s\n\tAddress:%s\n\tAmount:%f\n\tAccount Type:%s",acc[i].acc_no,acc[i].name,acc[i].age,acc[i].phone,acc[i].address,acc[i].amt,acc[i].acc_type);
                 flag = 1;
                 return SUCCESS;
             }
