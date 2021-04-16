@@ -13,5 +13,5 @@
 
 | **Test ID** |**HL ID**| **Description**                                              | **Exp IN** | **Exp OUT** | **Actual Out** |**Type Of Test**  |    
 |-------------|---------|--------------------------------------------------------------|------------|-------------|----------------|------------------|
-|  L_01       |H_01|Clash of Account ID while creating a new Id| Accout Id |All accounts|Success|Requirement based |
+|  L_01       |H_01|Clash of Account ID while creating a new Id| Account Id |All accounts|Success|Requirement based |
 |  L_02       |H_02|Finding no account information from the entered account Id or name| Account Id or name | No record found| Success|Technical   |
