@@ -9,24 +9,24 @@
  * 
  */
 
-error_t new_acc(acc_info *account, int* numberOfAccounts)
+error_t new_acc(acc_info *acc, int* num_acc)
 {
-    char name[60];
-    int age,accNum,i,flag=0;;
-    char phone[12];
-    char address[20];
-    char accType[60];
-    printf("%d",*numberOfAccounts);
-    if(*numberOfAccounts<1000)
+    int age,acc_Num,i,flag=0;;
+    char name[60];    
+    char phone[10];
+    char address[60];
+    char acc_Type[60];
+    printf("%d",*num_acc);
+    if(*num_acc<1000)
     {
     	printf("Enter Account Number\n");
-        scanf("%d",&accNum);
+        scanf("%d",&acc_Num);
         printf("Enter name\n");
         scanf("%s",&name);
         
-        for(i=0;i<*numberOfAccounts;i++)
+        for(i=0;i<*num_acc;i++)
         {
-            if(account[i].account_no==accNum)
+            if(acc[i].acc_no==acc_Num)
             {
                 printf("\n Error. Account number is already in use.");
                 flag=1;
@@ -35,22 +35,23 @@ error_t new_acc(acc_info *account, int* numberOfAccounts)
         }
         if(flag==0)
         {
-           account[*numberOfAccounts].account_no=accNum;
-           strcpy(account[*numberOfAccounts].name,name);
-           printf("Enter age\n");
-           scanf("%d",&age);
-           printf("Enter phone number\n");
-           scanf("%s",&phone);
-           printf("Enter address (street name, no space)\n");
+           
+           printf("\n Enter age");
+           scanf("%d",&age);           
+           printf("\n Enter address (street name, no space)");
            scanf("%s",&address);
-           printf("Enter Account Type\n");
-           scanf("%s",&accType);
-           strcpy(account[*numberOfAccounts].address, address);
-           strcpy(account[*numberOfAccounts].account_type, accType);
-		   account[*numberOfAccounts].age=age;
-		   strcpy(account[*numberOfAccounts].phone,phone);            
-		   account[*numberOfAccounts].balance=0.0;
-            *numberOfAccounts=*numberOfAccounts+1;
+           printf("\n Enter phone number");
+           scanf("%s",&phone);
+           printf("Enter Account Type");
+           scanf("%s",&acc_Type);
+           acc[*num_acc].acc_no=acc_Num;
+           strcpy(acc[*num_acc].name,name);
+           strcpy(acc[*num_acc].address, address);
+           strcpy(acc[*num_acc].acc_type, acc_Type);
+           strcpy(acc[*num_acc].phone,phone); 
+           acc[*num_acc].age=age;          
+           acc[*num_acc].amt=0.0;
+            *num_acc=*num_acc+1;
         }
         return SUCCESS;
     }
