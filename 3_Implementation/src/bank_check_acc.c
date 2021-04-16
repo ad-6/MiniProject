@@ -4,8 +4,8 @@
 #include "bankhead.h"
 
 /**
- * @brief this funcitons enables the user to view the account information from the account number or name
- * it also displays the interest in rupees that is been earned by that particular account
+ * @brief this function enables the user to view the account information from the account number or name
+ * displays the account number, name, amount in the account and account type
  * 
  */
 
