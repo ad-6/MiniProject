@@ -8,5 +8,5 @@
 ## Low Level Design 
 
 --- TBD Structural and Behavioural Diagram
-![FeaturesLevelStructuralDiagram](Link to Pic)
+![FeaturesLevelStructuralDiagram](https://github.com/ad-6/MiniProject/blob/main/2_Design/low_1.png)
 ![FeaturesBehaviouralDiagram](Link to Pic)
